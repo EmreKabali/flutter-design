@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:walletappdesign/Challenges/Day1.dart';
 import 'package:walletappdesign/SquidGame.dart';
 import 'package:walletappdesign/Wallet.dart';
 
@@ -11,7 +12,7 @@ class BrainHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SquidGame(),
+      home: Day1(),
       debugShowCheckedModeBanner: false,
     );
   }
